@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!--renders nav drawer list items-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_add_foods"
+            android:icon="@drawable/add_foods_icon_black"
+            android:title="@string/nav_add_foods" />
+        <item
+            android:id="@+id/nav_manage_inventory"
+            android:icon="@drawable/manage_inventory_icon"
+            android:title="@string/nav_manage_inventory" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_notifications" />
+
+        <item
+            android:id="@+id/nav_shopping_list"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="@string/nav_shopping_list" />
+
+    </group>
+
+    <item android:title="Other">
+
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/nav_settings" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="@string/nav_about_us" />
+
+        </menu>
+    </item>
+
+</menu>
