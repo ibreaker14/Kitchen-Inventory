@@ -18,7 +18,7 @@ import java.util.List;
 import mingninja.net.kitcheninventory.R;
 
 public class DataItemAdapter extends ArrayAdapter<DataItem> {
-    List<DataItem> mDataItems; //reference to List items
+    List<DataItem> mDataItems; //reference to List items  //original
     LayoutInflater mInflater; //reads into memory
 
     public DataItemAdapter(Context context, List<DataItem> objects) {
