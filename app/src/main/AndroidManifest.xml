@@ -24,7 +24,8 @@
         android:label="@string/activity_title_about_us" />
         <activity
             android:name=".activity.SettingsActivity"
-            android:label="@string/activity_title_settings" />
+            android:label="@string/activity_title_settings"
+            />
         <activity
             android:name=".activity.FilterActivity"
             android:label="@string/activity_title_filter" />
